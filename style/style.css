@@ -45,7 +45,7 @@ nav{
     margin-left: 42vw;
     font-weight: bold;
     font-family: Montserrat;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .section1P{
@@ -53,6 +53,16 @@ nav{
     margin-left: 40vw;
     font-family: Lato;
 }
+
+.section2Titre{
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 1.563rem;
+    font-weight: bold;
+    padding-top: 8vh;
+}
+
 
 
 .form {
