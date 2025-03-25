@@ -60,7 +60,12 @@ nav{
     font-family: Montserrat;
     font-size: 1.563rem;
     font-weight: bold;
+    
+}
+
+.section2{
     padding-top: 8vh;
+    padding-bottom: 8vh;
 }
 
 .section2img1{
@@ -82,47 +87,17 @@ nav{
     border-radius: 10px;
 }
 
-.form {
-    padding: 20px;
-    width: 400px;
-    text-align: center;
-}
-h2 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-}
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-label {
-    text-align: left;
-    font-size: 14px;
-    color: #666;
-}
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-bottom: 1px solid #ccc;
-    font-size: 14px;
-    background: transparent;
-    outline: none;
-}
-textarea {
-    resize: none;
-}
-.btn {
-    background-color: #d9534f;
+.section3{
+    background-color: #dc3545 ;
     color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 100px;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
 }
-.btn:hover {
-    background-color: #c9302c;
+
+.section3Titre{
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 1.563rem;
 }
+
