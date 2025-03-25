@@ -36,7 +36,7 @@ nav{
 
 .imgAvatar{
     width: 20vw;
-    height: 15vw;
+    height: 30vh;
     margin-left: 40vw;
 }
 
@@ -63,7 +63,24 @@ nav{
     padding-top: 8vh;
 }
 
+.section2img1{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
 
+.section2img2{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 3.4vh;
+}
+
+.imgIcon{
+    width: 15vw;
+    height: 20vh;
+    border-radius: 10px;
+}
 
 .form {
     padding: 20px;
