@@ -116,3 +116,53 @@ nav{
 .aboutP2{
     margin-left: 1vw;
 }
+
+.section4{
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+.form {
+    padding: 20px;
+    width: 27.2vw;
+    text-align: center;
+    margin-left: 35vw;
+}
+h2 {
+    font-size: 1.563rem;
+    font-weight: bold;
+    color: #2c3f50;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+label {
+    text-align: left;
+    font-size: 0.875rem;
+    color: #6e7983;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 0.875rem;
+    background: transparent;
+    outline: none;
+}
+textarea {
+    resize: none;
+}
+.btn {
+    background-color: #d9534f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}
