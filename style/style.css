@@ -101,3 +101,18 @@ nav{
     font-size: 1.563rem;
 }
 
+.section3Column{
+    display: flex;
+    width: 30vw;
+    gap: 10px;
+    font-family: Lato;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-left: 35vw;
+}
+.section3P{
+    display: flex;
+}
+.aboutP2{
+    margin-left: 1vw;
+}
