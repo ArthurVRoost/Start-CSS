@@ -19,7 +19,7 @@
         height: 20px;
         cursor: pointer;
         transition: 3s ease-in-out;
-        
+        animation: Smoothh 1s ease-in forwards,glow 1s ease infinite;  
     }
     
     
@@ -32,23 +32,27 @@
             
     }
     .menuBurger:hover{
-        animation: bounce 1s infinite ease;
+        animation: bounce 1s infinite ease
     }
-
+    
     @keyframes glow {
         from {
-            box-shadow: 0 0 10px -10px #aef4af;
-          }
-          to {
-            box-shadow: 0 0 10px 10px #aef4af;
-          }
-        
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        }
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+      }
+    
+    @keyframes Smoothh {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
     }
    
-    .menuBurger{
-        animation: glow 1 infinite alternate;
-    }  
-    
 
     .navTitre {
         z-index: 10;
@@ -97,7 +101,7 @@
         margin: 0;
         display: flex;
     }
-/* INCOMPREHENSIBLE POURQUOI MES IMAGES CHANGENT PAS DE TAILLE */
+
     .imgIcon {
         margin-bottom: 15px;
         height: auto;
@@ -158,8 +162,7 @@
         display: none;
     }
     .navP {
-        /* width: 5vw;
-        font-size: 15px; */
+        
         display: flex;
     }
 
