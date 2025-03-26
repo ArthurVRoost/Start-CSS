@@ -184,13 +184,30 @@ textarea {
     justify-content: center;
     gap: 6rem;
     text-align: center;
+    padding-bottom: 6vh;
+    padding-top: 4vh;
 }
 
 .bootstrap{
     color: #1db695;
 }
 
-.fa-brands{
-    border: 1px solid white;
-    border-radius: 50%;
+footer>section>div>div>i{
+    border: 2px solid white;
+    border-radius: 100%;
+    gap: 20px;
+}
+
+footer>section>div>div{
+    gap: 20px;
+}
+
+h4{
+    font-family: Montserrat;
+    font-size: 1.2rem;
+}
+
+.footerP{
+    font-family: Lato;
+    font-size: smaller;
 }
