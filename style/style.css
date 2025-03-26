@@ -462,3 +462,43 @@ h4{
 .imgIcon:hover{
     box-shadow: 0 0 20px black;
 }
+
+@keyframes zoom {
+    0%{
+        transform: scale(100%)
+    }
+    20%{
+        transform: scale(110%)
+    }
+    40%{
+        transform: scale(100%)
+    }
+    60%{
+        transform: scale(100%)
+    }
+    80%{
+        transform: scale(100%)
+    }
+    100%{
+        transform: scale(100%)
+    }
+}
+
+.imgIcon:nth-of-type(1){
+    animation: zoom 6s ease 1s infinite forwards;
+}
+.imgIcon:nth-of-type(2){
+    animation: zoom 6s ease 2s infinite forwards;
+}
+.imgIcon:nth-of-type(3){
+    animation: zoom 6s ease 3s infinite forwards;
+}
+.imgIcon:nth-of-type(4){
+    animation: zoom 6s ease 4s infinite forwards;
+}
+.imgIcon:nth-of-type(5){
+    animation: zoom 6s ease 5s infinite forwards;
+}
+.imgIcon:nth-of-type(6){
+    animation: zoom 6s ease 6s infinite forwards;
+}
