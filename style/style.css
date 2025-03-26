@@ -22,9 +22,8 @@
         
     }
     
-    /* J'AI ESSAYE MAIS CA A TOUT CASSE DONC JE PREFERE METTRE EN COMMENTAIRE */
     
-     /* @keyframes bounce {
+      @keyframes bounce {
         0%{transform: translateY(0px);}
         50%{transform: translateY(-10px);}
         100%{transform: translateY(-10px);
@@ -43,12 +42,12 @@
           to {
             box-shadow: 0 0 10px 10px #aef4af;
           }
-        }
+        
     }
    
     .menuBurger{
         animation: glow 1 infinite alternate;
-    }  */
+    }  
     
 
     .navTitre {
@@ -74,21 +73,12 @@
         margin: 10px 0;
         color: white;
     }
-    .imgAvatar {
-        width: 50vw;
-        height: auto;
-        margin-left: 25vw;
-    }
-
-    .section1{
-        text-align: center;
-        align-items: center;
-        margin-left: 0;
-    }
+    
+    
     .section1Titre {
         margin-left: 0;
         text-align: center;
-        font-size: 2rem;
+        font-size: 12px;
         align-items: center;
     }
 
@@ -104,15 +94,14 @@
         flex-direction: column;
         align-items: center;
         width: 20vw;
-        margin-left: 40vw;
+        margin: 0;
         display: flex;
     }
 /* INCOMPREHENSIBLE POURQUOI MES IMAGES CHANGENT PAS DE TAILLE */
     .imgIcon {
-        width:40vw;
         margin-bottom: 15px;
-        margin-left: 0;
         height: auto;
+        
     }
 
     .section3Column {
@@ -265,26 +254,25 @@ nav{
     background-color: #dc3545;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    flex-direction: column;
+    text-align: center;
     
 }
 
 .imgAvatar{
     width: 20vw;
     height: 30vh;
-    margin-left: 40vw;
 }
 
 .section1Titre{
     color: white;
-    margin-left: 42vw;
     font-weight: bold;
     font-family: Montserrat;
-    font-size: 2.5rem;
+    font-size: 40px;
 }
 
 .section1P{
     color: white;
-    margin-left: 40vw;
     font-family: Lato;
 }
 
@@ -307,6 +295,8 @@ nav{
     justify-content: center;
     gap: 25px;
     flex-wrap: wrap;
+    width: auto;
+    height: auto;
 }
 
 .section2img2{
@@ -315,11 +305,13 @@ nav{
     gap: 25px;
     margin-top: 3.4vh;
     flex-wrap: wrap;
+    width: auto;
+    height: auto;
 }
 
 .imgIcon{
-    width: 15vw;
-    height: 20vh;
+    width: 250px;
+    height: auto;
     border-radius: 10px;
 }
 
