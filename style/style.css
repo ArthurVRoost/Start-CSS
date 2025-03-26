@@ -15,9 +15,33 @@
         transform: translateY(-50%);
         height: 20px;
         cursor: pointer;
+        transition: 3s ease-in-out;
         
     }
+    
+    /* J'AI ESSAYE MAIS CA A TOUT CASSE DONC JE PREFERE METTRE EN COMMENTAIRE */
+    
+    /* @keyframes bounce {
+        0%{transform: translateY(0px);}
+        100%{transform: translateY(5px);}
+    }
+    .menuBurger{
+        animation: bounce 1s infinite ease;
+    }
+
+    @keyframes glow {
+        from {
+            box-shadow: 0 0 10px -10px #aef4af;
+          }
+          to {
+            box-shadow: 0 0 10px 10px #aef4af;
+          }
+        }
+    }
    
+    .menuBurger{
+        animation: glow 1 infinite alternate;
+    } */
     
 
     .navTitre {
