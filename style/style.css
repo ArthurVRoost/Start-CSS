@@ -195,11 +195,12 @@ textarea {
 footer>section>div>div>i{
     border: 2px solid white;
     border-radius: 100%;
-    gap: 20px;
-}
-
-footer>section>div>div{
-    gap: 20px;
+    height: 30px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
 }
 
 h4{
@@ -210,4 +211,10 @@ h4{
 .footerP{
     font-family: Lato;
     font-size: smaller;
+}
+
+#iGap{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
 }
