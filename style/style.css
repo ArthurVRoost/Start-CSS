@@ -1,23 +1,48 @@
 @media (max-width: 576px) {
     nav {
-        flex-direction: column;
-        height: auto;
-        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        position: relative;
     }
+    .menuBurger {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        width: 30px;
+        transform: translateY(-50%);
+        height: 20px;
+        cursor: pointer;
+        
+    }
+   
+    
 
     .navTitre {
-        margin-left: 0;
-        text-align: center;
-        margin-bottom: 10px;
+        z-index: 10;
+        position: relative;
     }
 
     .navP {
-        margin-left: 0;
-        gap: 15px;
         
-        align-items: center;
+        visibility: hidden; 
+        opacity: 0; 
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color:#2c3f50 ;
+        text-align: center;
+        padding: 10px 0;
+        z-index: 20;
     }
-
+    .navP p {
+        margin: 10px 0;
+        color: white;
+    }
     .imgAvatar {
         width: 50vw;
         height: auto;
@@ -93,22 +118,41 @@
 
 @media (min-width: 577px) and (max-width: 768px) {
     nav {
-        padding: 0 20px;
+        padding: 20px;
+        
     }
 
     .navTitre {
-        margin-left: 0;
+        width: 2vw;
+        
     }
-
+    .menuBurger{
+        display: none;
+    }
     .navP {
-        margin-left: auto;
+        /* width: 5vw;
+        font-size: 15px; */
+        display: flex;
     }
 
     .imgAvatar {
         width: 30vw;
         margin-left: 35vw;
+        height: auto;
     }
 
+    .section1{
+        text-align: center;
+        align-items: center;
+    }
+    .section1Titre{
+        text-align: center;
+        align-items: center;
+    }
+    .section1P{
+        align-items: center;
+        text-align: center;
+    }
     .section2img1, .section2img2 {
         gap: 20px;
         flex-wrap: wrap;
@@ -136,7 +180,11 @@
         margin-left: 20vw;
     }
 }
-
+@media (min-width:768px) {
+    .menuBurger{
+        display: none;
+    }
+}
 body {
     margin: 0;
     padding: 0;
@@ -144,6 +192,13 @@ body {
 }
 
 nav{
+    display: flex;
+    background-color: #2c3f50;
+    color: white;
+    height: 10vh;
+    align-items: center;
+}
+.nav{
     display: flex;
     background-color: #2c3f50;
     color: white;
